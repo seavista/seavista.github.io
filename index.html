@@ -23,15 +23,30 @@
         <!-- Logo -->
         <h1 id="logo" style="margin: 0; padding: 0;">
             <a href="#" >
-                <img src="images/logo.png" alt="Seavista" style="vertical-align: middle;" />Seavista
+                <img src="images/logo.png" alt="Seavista" style="vertical-align: middle;" /><span class="accentColor">SEA</span>VISTA
             </a>
         </h1>
 
-   
+<!-- Responsive Fullscreen Navigation Menu -->
+<nav id="nav">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
+    <div class="nav-overlay"></div>
+    <ul class="nav-menu">
+        <li><a href="#intro" onclick="document.getElementById('nav-toggle').checked = false;">Intro</a></li>
+        <li><a href="#one" onclick="document.getElementById('nav-toggle').checked = false;">What We Do</a></li>
+        <li><a href="#two" onclick="document.getElementById('nav-toggle').checked = false;">Who We Are</a></li>
+        <li><a href="#work" onclick="document.getElementById('nav-toggle').checked = false;">Ventures</a></li>
+    </ul>
+</nav>
+
+
     </header>
 
     <!-- Intro -->
-    <section id="intro" class="main style1 dark fullscreen">
+    <section id="intro" class="main style1">
         <div>
    
                 <h2>Ventures With a View.</h2>
@@ -45,10 +60,10 @@
     </section>
 
     <!-- One -->
-    <section id="one" class="main style2 left dark fullscreen">
+    <section id="one" class="main style2 left">
         <div class="content box style2">
         
-                <h2>Our Mission</h2>
+                <h2>What We Do</h2>
            
             <p>Is simple, <b>BUILD GREAT THINGS</b> that helps make life easier, more enriching and totally more fun.</p>
             <a href="#two" class="button style2 down">Next</a>
@@ -56,34 +71,33 @@
        
     </section>
 
+    
+
     <!-- Two -->
-    <section id="two" class="main style2 left dark fullscreen" >
+    <section id="two" class="main style3 left" >
         <div class="content box style2">
            
-                <h2>Our Team</h2>
+                <h2>Who We Are</h2>
           
-            <p>A group of fun loving <b>HIGHLY TALENTED</b> analysts, artists, programmers, project managers, marketing experts, and one black lab. Founded by Jason Hawgood, with over 20 years of experience making analog ideas become a digital reality.</p>
+            <p>A group of fun loving <b>HIGHLY TALENTED</b> analysts, artists, programmers, project managers, marketing experts, and one dog Otis. Founded by Jason Hawgood, with over 25 years of experience making analog ideas become a digital reality.</p>
             <a href="#work" class="button style2 down">Next</a>
         </div>
         
     </section>
 
     <!-- Work -->
-    <section id="work" class="main style3 primary">
-        <div class="content box style2">
+    <section id="work" class="main style2 left">
+        <div class="content box style2 images">
            
-                <h2>Our Philosophy</h2>
-                <p>Our business plan remains simple <b>CREATE SOFTWARE</b> that solves problems.</p>
+                <h2>LATEST VENTURE</h2>
+                <p>Our plan is simple <b>CREATE SOFTWARE SOLUTIONS</b> that solves problems and delights users.</p>
            
-                <a href="#contact" class="button style2">Next</a>
+                
+               
 
-            <!-- <div class="container small gallery">
-                <div class="row flush images">
-                    <a href="images/thumbs/01.jpg" >
-                        <img src="images/thumbs/01.jpg" title="Quicknear - Experience Things Nearby" alt="Quicknear - Experience Things Nearby"  />
-                    </a>
-                </div>
-                <div class="row flush images" >
+          
+                <img src="images/thumbs/07.png" title="Wher.ai - AI Powered Organization"  />
+                <!-- <div class="row flush images" >
                     <a href="images/thumbs/02.jpg" class="image full r" target="_blank" >
                         <img src="images/thumbs/02.jpg" title="ti.ly - Connect, track, convert" alt="ti.ly - Connect, track, convert"  />
                     </a>
@@ -107,8 +121,10 @@
                     <a href="images/thumbs/06.jpg" class="image full r" style="display: block;">
                         <img src="images/thumbs/06.jpg" title="Become Our Next Venture" alt="Become Our Next Venture"  />
                     </a>
-                </div>
-            </div> -->
+                </div> -->
+
+                <a href="https://wher.ai" class="button style2">Visit</a>
+      
         </div>
     </section>
 
