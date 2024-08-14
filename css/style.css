@@ -172,6 +172,7 @@ ul.menu li {
     background: #f8f9fa;
     padding: 50px 0;
     text-align: center;
+    align-content: center;
 }
 
 .contact-header {
@@ -231,6 +232,12 @@ ul.menu li {
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s ease;
+}
+
+.contact-box {
+
+   align-content: center;
+
 }
 
 .contact-button:hover {
