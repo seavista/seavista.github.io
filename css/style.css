@@ -286,6 +286,7 @@ ul.menu li {
 
 #footer a {
     color: rgba(185, 186, 187, 0.5);
+    margin: 2rem;
 }
 
 #footer a:hover {
