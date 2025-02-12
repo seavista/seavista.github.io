@@ -14,49 +14,7 @@
     <script src="js/init.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<script type="module">
-	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
-	createChat({
-		// REQUIRED: The webhook endpoint for processing messages.
-		webhookUrl: 'https://n8n.seavista.co/webhook/5f1c0c82-0ff9-40c7-9e2e-b1a96ffe24cd/chat',
-
-		// OPTIONAL: Specify where to render the chat widget.
-		//container: '#chat-container',
-
-		// OPTIONAL: Customize the header text.
-		title: 'Chat with us',
-		subtitle: 'We’re here to help!',
-
-		// OPTIONAL: Set avatars for the bot and user.
-		//botAvatar: 'https://example.com/path/to/bot-avatar.png',
-		//userAvatar: 'https://example.com/path/to/user-avatar.png',
-
-		// OPTIONAL: Choose a theme.
-		theme: {
-			primaryColor: '#0066ff',
-			secondaryColor: '#f1f1f1',
-			fontFamily: 'Arial, sans-serif'
-		},
-
-		// OPTIONAL: Should the chat open by default?
-		open: false,
-
-		// OPTIONAL: Preload some initial messages.
-		initialMessages: [
-			'Hello! How can we help you today?'
-		],
-
-		// OPTIONAL: Callback when a new message is sent or received.
-		onMessage: (message) => {
-			console.log('New message:', message);
-		},
-
-		// OPTIONAL: Additional custom CSS.
-		//customCss: '.n8n-chat-header { background-color: #0066ff; } .n8n-chat-body { font-size: 14px; }'
-		
-	});
-</script>
 </script>
 </head>
 </head>
