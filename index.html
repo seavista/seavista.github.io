@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <title>Seavista&trade; Ventures With a View</title>
@@ -15,7 +15,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
-</script>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+
+
+    
+    </script>
+
+
 </head>
 </head>
 <body>
@@ -197,11 +206,56 @@
     <!-- Footer -->
        <!-- Nav -->
        <footer id="footer">
-      
+   
         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
 
        </footer>
+
+
+
+           <!-- Widget Configuration -->
+    <script>
+        window.ChatWidgetConfig = {
+            
+            webhook: {
+                url: 'https://n8n.seavista.co/webhook/5f1c0c82-0ff9-40c7-9e2e-b1a96ffe24cd/chat',
+                route: 'general',
+
+            },
+            branding: {
+                logo: 'images/logo.png',
+                name: 'SEAVISTA', // Your company name
+                welcomeText: 'Hi 👋, how can we help?', //Welcome message
+                responseTimeText: 'We typically respond right away' //Response time message
+            },
+            style: {
+                primaryColor: '#854fff', //Primary color
+                secondaryColor: '#6b3fd4', //Secondary color
+                position: 'right', //Position of the widget (left or right)
+                backgroundColor: '#ffffff', //Background color of the chat widget
+                fontColor: '#333333', //Text color for messages and interface
+                botMessageBoxBackgroundColor: '#f1f0f0', //Background color for bot messages
+                userMessageBoxBackgroundColor: '#854fff', //Background color for user messages
+                chatButtonColor: '#854fff', //Color of the chat button
+                chatButtonIconColor: '#ffffff', //Color of the chat button icon
+                chatButtonIconSize: '24px', //Size of the chat button icon
+                chatButtonBackgroundColor: '#854fff', //Background color of the chat button
+                chatButtonBorderColor: '#854fff', //Border color of the chat button
+                chatButtonBorderRadius: '50%', //Border radius of the chat button
+                chatButtonPosition: 'right', //Position of the chat button (left or right)
+                chatButtonSize: '56px', //Size of the chat button
+                chatButtonShadow: '0 2px 4px 0 rgba(0,0,0,0.1)', //Shadow of the chat button
+         
+
+            },
+            
+        };
+    </script>
+    <script src="js/chat-widget.js"></script>
+    <!-- Widget Script -->
+    
+    
 </body>
 </html>
